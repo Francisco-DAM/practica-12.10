@@ -1,0 +1,85 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    font-size: large;
+}
+
+p.caja_naranja {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    border: hsl(40, 40%, 35%) 2px solid;
+    background-color: orange;
+    text-align: center;
+}
+
+p.caja_verde {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: hsl(120, 40%, 35%) 4px solid;
+    background-color: green;
+    text-align: center;
+}
+
+p.caja_amarilla {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(60, 64%, 55%) 4px solid;
+    background-color: yellow;
+    text-align: left;
+}
+
+p.caja_azul {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(180, 25%, 70%) 4px solid;
+    background-color: blue;
+    text-align: right;
+}
+
+p.caja_violeta {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(300, 15%, 70%) 4px solid;
+    background-color: violet;
+    text-align: left;
+}
+
+p.caja_rojo {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(0, 15%, 45%) 4px solid;
+    background-color: red;
+    text-align: right;
+}
+
+p:hover {
+    z-index: 3;
+  }
+
